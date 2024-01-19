@@ -8,7 +8,7 @@ const _ = require("lodash");
 const mongoose = require("mongoose");
 const mongodb = require("mongodb");
 
-mongoose.connect("mongodb+srv://Solomon216:VlIXRUoyGriSaQim@cluster0.g6u48ff.mongodb.net/blogDB"); 
+mongoose.connect("mongodb+srv://Solomon216:solomonname@cluster0.g6u48ff.mongodb.net/blogDB"); 
 
 const homeStartingContent = "Welcome to Idea Horizon, the blogsite where you can find inspiring and insightful articles on various topics related to innovation, creativity, and entrepreneurship. Whether you are a budding entrepreneur, a seasoned innovator, or a curious learner, you will find something valuable and interesting here. Our team of writers and experts share their knowledge, experience, and perspectives on how to generate, develop, and implement new ideas that can make a positive impact in the world. You can browse our categories, search for specific topics, or subscribe to our newsletter to get the latest updates. We hope you enjoy reading our blog and join us in exploring the horizon of ideas.";
 const aboutContent = "Welcome to Idea Horizon, a blogsite dedicated to exploring the latest trends and innovations in various fields of knowledge. Here, you will find insightful articles, inspiring stories, and practical tips from experts and enthusiasts who share their passion for learning and discovery. Whether you are interested in science, technology, arts, culture, or anything in between, you will find something that sparks your curiosity and expands your horizon. Idea Horizon is more than just a blogsite. It is a community of like-minded people who want to exchange ideas, collaborate on projects, and create positive impact in the world. Join us today and become part of this exciting journey!";
